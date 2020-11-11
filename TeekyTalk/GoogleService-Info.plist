@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>267627616490-on8o3dikh9ja8ig6mn5vj6prp9000raa.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.267627616490-on8o3dikh9ja8ig6mn5vj6prp9000raa</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC8QnGeMCJIUjaFs8hfYTQNb3-3iVVaBjw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>267627616490</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.umer.0malik-gmail.TeekyTalk</string>
+	<key>PROJECT_ID</key>
+	<string>teekytalk-54238</string>
+	<key>STORAGE_BUCKET</key>
+	<string>teekytalk-54238.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:267627616490:ios:d20bbcf761243cb7285f93</string>
+	<key>DATABASE_URL</key>
+	<string>https://teekytalk-54238.firebaseio.com</string>
+</dict>
+</plist>

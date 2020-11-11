@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40F0C5CB691D5603A871E613 /* Pods_TeekyTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7C515ECEC6C2108ED4AD1B /* Pods_TeekyTalk.framework */; };
+		453AFF892502A1340073ABF8 /* TabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453AFF882502A1340073ABF8 /* TabVC.swift */; };
+		453AFF8F2503F04D0073ABF8 /* RecentMessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453AFF8E2503F04D0073ABF8 /* RecentMessagesVC.swift */; };
+		453BB005251C90FA00D9393F /* AddContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453BB004251C90FA00D9393F /* AddContactVC.swift */; };
+		453BB007251CC4ED00D9393F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 453BB006251CC4ED00D9393F /* GoogleService-Info.plist */; };
+		453CC27525175E2D00D8E37B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453CC27425175E2D00D8E37B /* User.swift */; };
+		453DD917251A090000A7E6AC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DD916251A090000A7E6AC /* LoginVC.swift */; };
+		453DD919251A092300A7E6AC /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DD918251A092300A7E6AC /* RegisterVC.swift */; };
+		453DD91B251A095500A7E6AC /* ForgotDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453DD91A251A095500A7E6AC /* ForgotDetailsVC.swift */; };
+		453E36EE2512BEF90005B469 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453E36ED2512BEF90005B469 /* MessageCell.swift */; };
+		453E3B8A251501B9008716AB /* RecentMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453E3B89251501B9008716AB /* RecentMessageCell.swift */; };
+		453E4E3D251CF50F0049E014 /* FBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453E4E3C251CF50F0049E014 /* FBase.swift */; };
+		4542310525404D3400A974AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4542310425404D3300A974AA /* Constants.swift */; };
+		4542572825025B6C0038AC5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4542572725025B6C0038AC5C /* AppDelegate.swift */; };
+		4542572A25025B6C0038AC5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4542572925025B6C0038AC5C /* SceneDelegate.swift */; };
+		4542572C25025B6C0038AC5C /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4542572B25025B6C0038AC5C /* ContactsVC.swift */; };
+		4542573125025B770038AC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4542573025025B770038AC5C /* Assets.xcassets */; };
+		4542573425025B770038AC5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4542573225025B770038AC5C /* LaunchScreen.storyboard */; };
+		4542573D25025E280038AC5C /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4542573C25025E280038AC5C /* Constraints.swift */; };
+		4542573F25025EA60038AC5C /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4542573E25025EA60038AC5C /* Extras.swift */; };
+		4542574125027CA90038AC5C /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4542574025027CA90038AC5C /* ContactCell.swift */; };
+		45446A96252E0F1300D25B8E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45446A95252E0F1200D25B8E /* Message.swift */; };
+		4565E71B250F9FA40019D6C7 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565E71A250F9FA40019D6C7 /* MessageVC.swift */; };
+		4565E71D2510BEE40019D6C7 /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565E71C2510BEE40019D6C7 /* EditVC.swift */; };
+		4565E71F2510C9340019D6C7 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4565E71E2510C9340019D6C7 /* SettingsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A7C515ECEC6C2108ED4AD1B /* Pods_TeekyTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeekyTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		453AFF882502A1340073ABF8 /* TabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabVC.swift; sourceTree = "<group>"; };
+		453AFF8E2503F04D0073ABF8 /* RecentMessagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMessagesVC.swift; sourceTree = "<group>"; };
+		453BB004251C90FA00D9393F /* AddContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactVC.swift; sourceTree = "<group>"; };
+		453BB006251CC4ED00D9393F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		453CC27425175E2D00D8E37B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		453DD916251A090000A7E6AC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		453DD918251A092300A7E6AC /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		453DD91A251A095500A7E6AC /* ForgotDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotDetailsVC.swift; sourceTree = "<group>"; };
+		453E36ED2512BEF90005B469 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		453E3B89251501B9008716AB /* RecentMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMessageCell.swift; sourceTree = "<group>"; };
+		453E4E3C251CF50F0049E014 /* FBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBase.swift; sourceTree = "<group>"; };
+		4542310425404D3300A974AA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4542572425025B6C0038AC5C /* TeekyTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeekyTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4542572725025B6C0038AC5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4542572925025B6C0038AC5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4542572B25025B6C0038AC5C /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
+		4542573025025B770038AC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4542573325025B770038AC5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4542573525025B770038AC5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4542573C25025E280038AC5C /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		4542573E25025EA60038AC5C /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+		4542574025027CA90038AC5C /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		45446A95252E0F1200D25B8E /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		4565E71A250F9FA40019D6C7 /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		4565E71C2510BEE40019D6C7 /* EditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
+		4565E71E2510C9340019D6C7 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		631F2DFE581ACD1F3FD13C08 /* Pods-TeekyTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeekyTalk.release.xcconfig"; path = "Target Support Files/Pods-TeekyTalk/Pods-TeekyTalk.release.xcconfig"; sourceTree = "<group>"; };
+		E812516AA30948743F48A065 /* Pods-TeekyTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeekyTalk.debug.xcconfig"; path = "Target Support Files/Pods-TeekyTalk/Pods-TeekyTalk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4542572125025B6C0038AC5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F0C5CB691D5603A871E613 /* Pods_TeekyTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197E9C2E2EF034CEFB977E63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E812516AA30948743F48A065 /* Pods-TeekyTalk.debug.xcconfig */,
+				631F2DFE581ACD1F3FD13C08 /* Pods-TeekyTalk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		453DD91F251A099400A7E6AC /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				453DD916251A090000A7E6AC /* LoginVC.swift */,
+				453DD918251A092300A7E6AC /* RegisterVC.swift */,
+				453DD91A251A095500A7E6AC /* ForgotDetailsVC.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		4542571B25025B6C0038AC5C = {
+			isa = PBXGroup;
+			children = (
+				4542572625025B6C0038AC5C /* TeekyTalk */,
+				4542572525025B6C0038AC5C /* Products */,
+				197E9C2E2EF034CEFB977E63 /* Pods */,
+				97C445266FCBF7A6E7967BA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4542572525025B6C0038AC5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4542572425025B6C0038AC5C /* TeekyTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4542572625025B6C0038AC5C /* TeekyTalk */ = {
+			isa = PBXGroup;
+			children = (
+				4542573B25025DF50038AC5C /* Utilities */,
+				4565E7202510CC560019D6C7 /* Model */,
+				45425742250283A50038AC5C /* View */,
+				4546D8BA25498A380045F00F /* Controller */,
+				4542572725025B6C0038AC5C /* AppDelegate.swift */,
+				4542572925025B6C0038AC5C /* SceneDelegate.swift */,
+				4542573025025B770038AC5C /* Assets.xcassets */,
+				4542573225025B770038AC5C /* LaunchScreen.storyboard */,
+				4542573525025B770038AC5C /* Info.plist */,
+				453BB006251CC4ED00D9393F /* GoogleService-Info.plist */,
+			);
+			path = TeekyTalk;
+			sourceTree = "<group>";
+		};
+		4542573B25025DF50038AC5C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4542573C25025E280038AC5C /* Constraints.swift */,
+				4542573E25025EA60038AC5C /* Extras.swift */,
+				4542310425404D3300A974AA /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		45425742250283A50038AC5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4542574025027CA90038AC5C /* ContactCell.swift */,
+				453E36ED2512BEF90005B469 /* MessageCell.swift */,
+				453E3B89251501B9008716AB /* RecentMessageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4546D8BA25498A380045F00F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4542572B25025B6C0038AC5C /* ContactsVC.swift */,
+				4565E71A250F9FA40019D6C7 /* MessageVC.swift */,
+				453AFF8E2503F04D0073ABF8 /* RecentMessagesVC.swift */,
+				4565E71E2510C9340019D6C7 /* SettingsVC.swift */,
+				4565E71C2510BEE40019D6C7 /* EditVC.swift */,
+				453BB004251C90FA00D9393F /* AddContactVC.swift */,
+				453DD91F251A099400A7E6AC /* Registration */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4565E7202510CC560019D6C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				453AFF882502A1340073ABF8 /* TabVC.swift */,
+				453CC27425175E2D00D8E37B /* User.swift */,
+				45446A95252E0F1200D25B8E /* Message.swift */,
+				453E4E3C251CF50F0049E014 /* FBase.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97C445266FCBF7A6E7967BA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A7C515ECEC6C2108ED4AD1B /* Pods_TeekyTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4542572325025B6C0038AC5C /* TeekyTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4542573825025B770038AC5C /* Build configuration list for PBXNativeTarget "TeekyTalk" */;
+			buildPhases = (
+				3E220B23CB47210EF2864981 /* [CP] Check Pods Manifest.lock */,
+				4542572025025B6C0038AC5C /* Sources */,
+				4542572125025B6C0038AC5C /* Frameworks */,
+				4542572225025B6C0038AC5C /* Resources */,
+				FBC12DD221CF42CA82E44432 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeekyTalk;
+			productName = TeekyTalk;
+			productReference = 4542572425025B6C0038AC5C /* TeekyTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4542571C25025B6C0038AC5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "umer malik";
+				TargetAttributes = {
+					4542572325025B6C0038AC5C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 4542571F25025B6C0038AC5C /* Build configuration list for PBXProject "TeekyTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4542571B25025B6C0038AC5C;
+			productRefGroup = 4542572525025B6C0038AC5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4542572325025B6C0038AC5C /* TeekyTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4542572225025B6C0038AC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4542573425025B770038AC5C /* LaunchScreen.storyboard in Resources */,
+				4542573125025B770038AC5C /* Assets.xcassets in Resources */,
+				453BB007251CC4ED00D9393F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E220B23CB47210EF2864981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeekyTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC12DD221CF42CA82E44432 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeekyTalk/Pods-TeekyTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeekyTalk/Pods-TeekyTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeekyTalk/Pods-TeekyTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4542572025025B6C0038AC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453E3B8A251501B9008716AB /* RecentMessageCell.swift in Sources */,
+				4565E71F2510C9340019D6C7 /* SettingsVC.swift in Sources */,
+				4565E71D2510BEE40019D6C7 /* EditVC.swift in Sources */,
+				453DD919251A092300A7E6AC /* RegisterVC.swift in Sources */,
+				453AFF8F2503F04D0073ABF8 /* RecentMessagesVC.swift in Sources */,
+				4542310525404D3400A974AA /* Constants.swift in Sources */,
+				45446A96252E0F1300D25B8E /* Message.swift in Sources */,
+				4565E71B250F9FA40019D6C7 /* MessageVC.swift in Sources */,
+				453E4E3D251CF50F0049E014 /* FBase.swift in Sources */,
+				453BB005251C90FA00D9393F /* AddContactVC.swift in Sources */,
+				453AFF892502A1340073ABF8 /* TabVC.swift in Sources */,
+				453DD91B251A095500A7E6AC /* ForgotDetailsVC.swift in Sources */,
+				453E36EE2512BEF90005B469 /* MessageCell.swift in Sources */,
+				4542574125027CA90038AC5C /* ContactCell.swift in Sources */,
+				4542573D25025E280038AC5C /* Constraints.swift in Sources */,
+				453DD917251A090000A7E6AC /* LoginVC.swift in Sources */,
+				453CC27525175E2D00D8E37B /* User.swift in Sources */,
+				4542573F25025EA60038AC5C /* Extras.swift in Sources */,
+				4542572C25025B6C0038AC5C /* ContactsVC.swift in Sources */,
+				4542572825025B6C0038AC5C /* AppDelegate.swift in Sources */,
+				4542572A25025B6C0038AC5C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4542573225025B770038AC5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4542573325025B770038AC5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4542573625025B770038AC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4542573725025B770038AC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4542573925025B770038AC5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E812516AA30948743F48A065 /* Pods-TeekyTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y5HDUU6LPQ;
+				INFOPLIST_FILE = TeekyTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umer.0malik-gmail.TeekyTalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4542573A25025B770038AC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631F2DFE581ACD1F3FD13C08 /* Pods-TeekyTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y5HDUU6LPQ;
+				INFOPLIST_FILE = TeekyTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umer.0malik-gmail.TeekyTalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4542571F25025B6C0038AC5C /* Build configuration list for PBXProject "TeekyTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4542573625025B770038AC5C /* Debug */,
+				4542573725025B770038AC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4542573825025B770038AC5C /* Build configuration list for PBXNativeTarget "TeekyTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4542573925025B770038AC5C /* Debug */,
+				4542573A25025B770038AC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4542571C25025B6C0038AC5C /* Project object */;
+}
